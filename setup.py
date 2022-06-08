@@ -46,8 +46,8 @@ setup(
 
     author="Shane Caraveo, Trent Mick",
     author_email="komodo-feedback@ActiveState.com",
-    maintainer='Adam Groszer',
-    maintainer_email='agroszer@gmail.com',
+    maintainer='Alex Hathaway',
+    maintainer_email='alex@hathaway.xyz',
 
     classifiers=[
         "Development Status :: 5 - Production/Stable",
