@@ -1182,7 +1182,7 @@ class session(dbgp.serverBase.session):
         #    try:
         #        node = self.sendCommandWait(['feature_get', '-n', 'supports_async'])
         #        self.supportsAsync = int(node.getAttribute('supported'))
-        #    except DBGPError, e:
+        #    except DBGPError as e:
         #        self.supportsAsync = 0
         if not self.supportsAsync and self._resume > 0:
             raise DBGPError('Asynchronous commands are not supported')
